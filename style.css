@@ -1,0 +1,66 @@
+* {
+    font-family: "lato", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#00C9FF, #92FE9D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carteVisite {
+    background: white;
+    width: 800px;
+    border-radius: 3%;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.photoProfil {
+    height: 300px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.elementProfil {
+    display: flex;
+    flex-direction: column;
+}
+.info li {
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+
+i {
+    color: #00C9FF;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+#name {
+    font-family: "Sigmar One", cursive;
+    font-size: 30px;
+
+}
+
+#function {
+    font-family: "Lato", cursive;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #c3c3c3;
+}
+
+.social {
+    font-size: 30px;
+    color: #00c9ff;
+    margin: 10px;
+}
